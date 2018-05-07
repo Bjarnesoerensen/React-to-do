@@ -1,0 +1,19 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  margin: 3rem;
+}
+
+.header {
+  margin: 1rem;
+}
+
+.todo-item {
+  .custom-control-label {
+    display: block;
+
+    &.done {
+      text-decoration: line-through;
+    }
+  }
+}
